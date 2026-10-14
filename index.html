@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АТС Малиновка | Коттеджные посёлки в Ленинградской области под ключ</title>
+    <meta name="description" content="Готовые и строящиеся загородные дома от 90 000 ₽/м² в 4 посёлках Ленобласти. Семейная и IT-ипотека от 6%, синхронный Trade-in, собственные средства девелопера без проектного финансирования.">
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        warm: {
+                            50: '#FAF7F2',
+                            100: '#F5EFEB',
+                            200: '#EAE1D9',
+                            300: '#D9C8BA',
+                        },
+                        terracotta: {
+                            DEFAULT: '#C07A56',
+                            hover: '#AA6846',
+                            light: '#F8ECE6'
+                        },
+                        forest: {
+                            DEFAULT: '#2D5F3F',
+                            dark: '#1E432B',
+                            light: '#EAF2EC'
+                        },
+                        brand: {
+                            dark: '#2C1810',
+                            muted: '#6B5B4E',
+                            light: '#8C7B6E'
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['"Cormorant Garamond"', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #FAF7F2; color: #2C1810; }
+        h1, h2, h3, h4, .font-serif { font-family: 'Cormorant Garamond', serif; }
+        .accordion-content { max-height: 0; overflow: hidden; transition: max-height 0.35s ease-out; }
+        .accordion-item.open .accordion-content { max-height: 600px; }
+        .accordion-item.open .accordion-icon { transform: rotate(180deg); }
+    </style>
+</head>
+<body class="bg-warm-50 text-brand-dark antialiased selection:bg-terracotta selection:text-white">
+
+    <!-- Навигация -->
+    <header class="sticky top-0 z-50 bg-[#FAF7F2]/95 backdrop-blur-md border-b border-warm-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            
+            <!-- Логотип компании -->
+            <a href="#" class="flex items-center gap-3 group">
+                <img src="assets/logo.png" alt="АТС Малиновка" class="w-11 h-11 object-contain transition group-hover:scale-105">
+                <div>
+                    <span class="font-serif text-2xl font-bold tracking-tight text-brand-dark block leading-none">АТС Малиновка</span>
+                    <span class="text-[11px] uppercase tracking-widest text-brand-muted font-medium block mt-1">Девелопер с 2009 года</span>
+                </div>
+            </a>
+            
+            <!-- Меню (аккуратный адаптив) -->
+            <nav class="hidden lg:flex items-center space-x-7 text-sm font-medium text-brand-dark">
+                <a href="#catalog" class="hover:text-terracotta transition">Посёлки и дома</a>
+                <a href="#jtbd" class="hover:text-terracotta transition">Для кого</a>
+                <a href="#specs" class="hover:text-terracotta transition">Инженерия</a>
+                <a href="#calculator" class="hover:text-terracotta transition">Ипотека</a>
+                <a href="#faq" class="hover:text-terracotta transition">Вопросы и ответы</a>
+                <a href="#about" class="hover:text-terracotta transition">О девелопере</a>
+            </nav>
+
+            <!-- Контакты и CTA -->
+            <div class="flex items-center gap-4">
+                <div class="hidden sm:flex flex-col text-right">
+                    <a href="tel:+78125000000" class="text-sm font-bold text-brand-dark hover:text-terracotta whitespace-nowrap">+7 (812) 500-00-00</a>
+                    <span class="text-[11px] text-forest flex items-center justify-end gap-1 font-medium">
+                        <span class="w-2 h-2 rounded-full bg-forest animate-pulse"></span> Отдел продаж онлайн
+                    </span>
+                </div>
+                <a href="#contact" class="bg-forest hover:bg-forest-dark text-white px-5 py-2.5 rounded-xl font-medium text-sm transition shadow-sm whitespace-nowrap">
+                    Запись на показ
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Блок 1: Hero -->
+    <section class="relative pt-10 pb-16 lg:pt-16 lg:pb-24 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Левая колонка: Текст и УТП -->
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-forest-light border border-forest/20 text-forest text-xs font-semibold uppercase tracking-wider">
+                        <span>🌲 4 клубных посёлка в Ленобласти</span>
+                        <span class="text-brand-muted">•</span>
+                        <span>ИЖС / ДНП</span>
+                    </div>
+
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-brand-dark leading-[1.12] tracking-tight">
+                        Готовые и строящиеся дома под ключ <span class="text-terracotta">от 90 000 ₽/м²</span>
+                    </h1>
+
+                    <p class="text-lg text-brand-muted max-w-2xl leading-relaxed">
+                        Строим на <strong class="text-brand-dark">собственные средства</strong> без задержек эскроу и переплат банкам. 
+                        Семейная и IT-ипотека 6% в Ленинградской области, синхронный Trade-in вашей квартиры с проживанием до заезда.
+                    </p>
+
+                    <!-- Буллеты твердых выгод -->
+                    <div class="grid sm:grid-cols-3 gap-4 pt-2">
+                        <div class="bg-white p-4 rounded-2xl border border-warm-200 shadow-sm">
+                            <div class="text-2xl mb-1.5">🏦</div>
+                            <div class="font-bold text-sm text-brand-dark">Ипотека от 6%</div>
+                            <div class="text-xs text-brand-muted mt-0.5">Семейная до 12 млн ₽, IT до 9 млн ₽ в ЛО</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-2xl border border-warm-200 shadow-sm">
+                            <div class="text-2xl mb-1.5">⏱️</div>
+                            <div class="font-bold text-sm text-brand-dark">На 1–2 мес. быстрее</div>
+                            <div class="text-xs text-brand-muted mt-0.5">Старт стройки за 24ч на свои средства</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-2xl border border-warm-200 shadow-sm">
+                            <div class="text-2xl mb-1.5">🔑</div>
+                            <div class="font-bold text-sm text-brand-dark">Синхронный Trade-in</div>
+                            <div class="text-xs text-brand-muted mt-0.5">Живите в квартире до сдачи дома</div>
+                        </div>
+                    </div>
+
+                    <!-- Форма захвата Hero -->
+                    <div class="bg-white p-6 sm:p-7 rounded-2xl border border-warm-200 shadow-lg max-w-xl">
+                        <div class="text-sm font-bold text-brand-dark mb-1">Получите генеральный план и каталог свободных участков со сметами</div>
+                        <p class="text-xs text-brand-muted mb-4">Отправим в Telegram или WhatsApp с актуальными ценами на октябрь 2026</p>
+                        
+                        <form onsubmit="event.preventDefault(); alert('Спасибо! Каталог и генплан 4 посёлков отправлены в мессенджер.');" class="space-y-3">
+                            <div class="grid sm:grid-cols-2 gap-3">
+                                <input type="text" placeholder="Ваше имя" required class="w-full px-4 py-3 rounded-xl border border-warm-200 bg-warm-50/50 text-sm focus:outline-none focus:ring-2 focus:ring-forest">
+                                <input type="tel" placeholder="+7 (___) ___-__-__" required class="w-full px-4 py-3 rounded-xl border border-warm-200 bg-warm-50/50 text-sm focus:outline-none focus:ring-2 focus:ring-forest">
+                            </div>
+                            <button type="submit" class="w-full bg-terracotta hover:bg-terracotta-hover text-white font-medium py-3.5 px-6 rounded-xl text-sm transition shadow-md shadow-terracotta/20 flex items-center justify-center gap-2">
+                                <span>Скачать генплан и каталог (PDF, 14 МБ)</span>
+                                <span>→</span>
+                            </button>
+                            <p class="text-[11px] text-center text-brand-muted">Нажимая кнопку, вы соглашаетесь на обработку персональных данных по 152-ФЗ</p>
+                        </form>
+                    </div>
+
+                </div>
+
+                <!-- Правая колонка: Визуал (исправленная верстка и акценты) -->
+                <div class="lg:col-span-5 space-y-4">
+                    <div class="relative rounded-3xl overflow-hidden shadow-xl border-4 border-white bg-white">
+                        <div class="relative aspect-[4/3] sm:aspect-[16/11] overflow-hidden">
+                            <img src="assets/sawoda-facade-new.png" alt="Коттедж Sawoda от АТС Малиновка" class="w-full h-full object-cover">
+                            <div class="absolute top-4 left-4">
+                                <span class="inline-block px-3 py-1 rounded-full bg-forest text-white text-xs font-semibold shadow-md">
+                                    КП Sawoda • Тосненский р-н
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Нижняя информационная плашка карточки без наложений -->
+                        <div class="p-5 bg-white">
+                            <div class="flex items-start justify-between gap-4 mb-2">
+                                <div>
+                                    <h3 class="text-xl font-serif font-bold text-brand-dark">Коттедж 100.8 м² под ключ</h3>
+                                    <p class="text-xs text-brand-muted mt-0.5">Тёплые водяные полы, терраса 24 м², 15 кВт сетей, скважина и септик</p>
+                                </div>
+                                <div class="text-right shrink-0">
+                                    <div class="text-lg font-bold text-terracotta">от 4 200 000 ₽</div>
+                                    <div class="text-[11px] text-forest font-semibold mt-0.5">Ипотека от 22 400 ₽/мес</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Аккуратный бейдж надежности компании -->
+                    <div class="bg-white p-4 rounded-2xl shadow-md border border-warm-200 flex items-center justify-between">
+                        <div class="flex items-center gap-3">
+                            <div class="w-11 h-11 rounded-xl bg-forest-light flex items-center justify-center text-forest text-xl font-serif font-bold">17</div>
+                            <div>
+                                <div class="text-xs font-bold text-brand-dark uppercase tracking-wider">Лет строим в ЛО</div>
+                                <div class="text-[11px] text-brand-muted">Более 350 сданных домов без срывов сроков</div>
+                            </div>
+                        </div>
+                        <span class="text-xs bg-forest-light text-forest px-3 py-1.5 rounded-lg font-medium hidden sm:inline-block">Свои средства</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок 2: Для кого (3 JTBD-сегмента) -->
+    <section id="jtbd" class="py-20 bg-white border-y border-warm-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs uppercase tracking-widest text-terracotta font-semibold">Сценарии загородной жизни</span>
+                <h2 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark mt-2">
+                    Дома, спроектированные под реальные потребности семей и специалистов
+                </h2>
+                <p class="text-brand-muted text-base mt-4">
+                    Мы не продаем абстрактные «квадратные метры». Каждый проект учитывает рабочий график, состав семьи и сохранение капитала.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Сегмент 1: Семьи с детьми -->
+                <div class="bg-warm-50 rounded-2xl p-8 border border-warm-200 hover:border-terracotta/40 transition shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl bg-terracotta-light text-terracotta flex items-center justify-center text-2xl font-bold mb-6">👨‍👩‍👧‍👦</div>
+                        <h3 class="text-2xl font-serif font-bold text-brand-dark mb-3">Семьи с детьми</h3>
+                        <p class="text-sm text-brand-muted mb-6 leading-relaxed">
+                            Тесно в городской квартире, нет безопасного двора, а коммуналка за трешку превышает 12 000 ₽.
+                        </p>
+                        <div class="space-y-3 border-t border-warm-200 pt-6 text-sm">
+                            <div class="flex items-start gap-2">
+                                <span class="text-forest font-bold">✓</span>
+                                <span class="text-brand-dark">3–4 изолированные спальни и кухня-гостиная от 35 м²</span>
+                            </div>
+                            <div class="flex items-start gap-2">
+                                <span class="text-forest font-bold">✓</span>
+                                <span class="text-brand-dark">Закрытая территория с КПП, детскими и спортивными зонами</span>
+                            </div>
+                            <div class="flex items-start gap-2">
+                                <span class="text-forest font-bold">✓</span>
+                                <span class="text-brand-dark">Свой земельный участок от 6 до 12 соток в собственности</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8 pt-4 border-t border-warm-200">
+                        <span class="text-xs uppercase font-semibold text-terracotta block">Семейная ипотека 6%</span>
+                        <span class="text-sm font-bold text-brand-dark">Лимит до 12 млн ₽ • Платёж от 22 400 ₽/мес</span>
+                    </div>
+                </div>
+
+                <!-- Сегмент 2: Удалёнщики и IT -->
+                <div class="bg-warm-50 rounded-2xl p-8 border border-warm-200 hover:border-forest/40 transition shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl bg-forest-light text-forest flex items-center justify-center text-2xl font-bold mb-6">💻</div>
+                        <h3 class="text-2xl font-serif font-bold text-brand-dark mb-3">Удалёнщики и IT</h3>
+                        <p class="text-sm text-brand-muted mb-6 leading-relaxed">
+                            Шумный город выматывает, нужен тихий кабинет с видом на хвойный лес и стабильный скоростной интернет.
+                        </p>
+                        <div class="space-y-3 border-t border-warm-200 pt-6 text-sm">
+                            <div class="flex items-start gap-2">
+                                <span class="text-forest font-bold">✓</span>
+                                <span class="text-brand-dark"><strong>IT-ипотека действует в ЛО:</strong> в СПб закрыта, а в наших посёлках доступна!</span>
+                            </div>
+                            <div class="flex items-start gap-2">
+                                <span class="text-forest font-bold">✓</span>
+                                <span class="text-brand-dark">Оптоволоконный интернет до 500 Мбит/с в каждом посёлке</span>
+                            </div>
+                            <div class="flex items-start gap-2">
+                                <span class="text-forest font-bold">✓</span>
+                                <span class="text-brand-dark">Шумоизоляция межкомнатных перегородок Rockwool Акустик</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8 pt-4 border-t border-warm-200">
+                        <span class="text-xs uppercase font-semibold text-forest block">IT-ипотека 6% в ЛО</span>
+                        <span class="text-sm font-bold text-brand-dark">Лимит до 9 млн ₽ • Платёж от 24 500 ₽/мес</span>
+                    </div>
+                </div>
+
+                <!-- Сегмент 3: Инвесторы -->
+                <div class="bg-warm-50 rounded-2xl p-8 border border-warm-200 hover:border-brand-muted/40 transition shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl bg-warm-200 text-brand-dark flex items-center justify-center text-2xl font-bold mb-6">📈</div>
+                        <h3 class="text-2xl font-serif font-bold text-brand-dark mb-3">Инвесторы и рантье</h3>
+                        <p class="text-sm text-brand-muted mb-6 leading-relaxed">
+                            Инфляция обесценивает рубли, а доходность от аренды студий в Санкт-Петербурге упала до 4–5% годовых.
+                        </p>
+                        <div class="space-y-3 border-t border-warm-200 pt-6 text-sm">
+                            <div class="flex items-start gap-2">
+                                <span class="text-forest font-bold">✓</span>
+                                <span class="text-brand-dark">Капитализация дома: +25–35% прироста цены от котлована</span>
+                            </div>
+                            <div class="flex items-start gap-2">
+                                <span class="text-forest font-bold">✓</span>
+                                <span class="text-brand-dark">Посуточная аренда у озёр (Honkaniemi): от 120 000 ₽/мес</span>
+                            </div>
+                            <div class="flex items-start gap-2">
+                                <span class="text-forest font-bold">✓</span>
+                                <span class="text-brand-dark">Ликвидные участки ИЖС с оформлением права собственности</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8 pt-4 border-t border-warm-200">
+                        <span class="text-xs uppercase font-semibold text-brand-muted block">Доходность инвестиций</span>
+                        <span class="text-sm font-bold text-brand-dark">Окупаемость 6.5–8 лет • ROI от 14.5%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок 3: Каталог посёлков и домов (Без Елизаветинского) -->
+    <section id="catalog" class="py-20 bg-warm-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                <div>
+                    <span class="text-xs uppercase tracking-widest text-forest font-semibold">Наши объекты в Ленобласти</span>
+                    <h2 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark mt-2">
+                        4 клубных посёлка с готовой инфраструктурой и сетями
+                    </h2>
+                </div>
+                <div class="mt-4 md:mt-0 text-sm text-brand-muted">
+                    Все участки размежеваны, кадастровые номера в наличии
+                </div>
+            </div>
+
+            <!-- Сетка карточек посёлков -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Карточка 1: Honkaniemi -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-warm-200 shadow-md hover:shadow-xl transition group">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="assets/honkaniemi-forest.jpg" alt="Посёлок Honkaniemi" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <div class="absolute top-4 left-4 bg-forest text-white text-xs px-3 py-1 rounded-full font-semibold">
+                            Выборгский р-н • 55 км
+                        </div>
+                        <div class="absolute bottom-4 left-4 right-4 text-white">
+                            <span class="text-xs bg-black/60 backdrop-blur px-2.5 py-1 rounded">250 м до озёр • Сосновый бор</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-baseline mb-2">
+                            <h3 class="text-2xl font-serif font-bold text-brand-dark">Honkaniemi</h3>
+                            <span class="text-lg font-bold text-forest">от 6.5 млн ₽</span>
+                        </div>
+                        <p class="text-xs text-brand-muted mb-4 leading-relaxed">
+                            Премиальный посёлок у Красногвардейского озера. Асфальт до въезда, электричество 10–15 кВт, возможность подключения газа. 30 мин до Финского залива.
+                        </p>
+                        <div class="flex flex-wrap gap-1.5 mb-6 text-[11px]">
+                            <span class="bg-warm-100 text-brand-dark px-2.5 py-1 rounded-md">Участки до 18 сот.</span>
+                            <span class="bg-warm-100 text-brand-dark px-2.5 py-1 rounded-md">ДНП / ИЖС</span>
+                            <span class="bg-warm-100 text-brand-dark px-2.5 py-1 rounded-md">Газ по границе</span>
+                        </div>
+                        <a href="#contact" class="block text-center w-full py-2.5 border border-forest text-forest hover:bg-forest hover:text-white rounded-xl text-sm font-medium transition">
+                            Запросить генплан Honkaniemi
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Карточка 2: Sawoda -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-warm-200 shadow-md hover:shadow-xl transition group">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="assets/sawoda-facade-new.png" alt="Коттедж Sawoda" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <div class="absolute top-4 left-4 bg-terracotta text-white text-xs px-3 py-1 rounded-full font-semibold">
+                            Тосненский р-н • 65 км
+                        </div>
+                        <div class="absolute bottom-4 left-4 right-4 text-white">
+                            <span class="text-xs bg-black/60 backdrop-blur px-2.5 py-1 rounded">Дом 100.8 м² + 10 соток</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-baseline mb-2">
+                            <h3 class="text-2xl font-serif font-bold text-brand-dark">Sawoda</h3>
+                            <span class="text-lg font-bold text-terracotta">от 4.2 млн ₽</span>
+                        </div>
+                        <p class="text-xs text-brand-muted mb-4 leading-relaxed">
+                            Скандинавский коттедж с отделкой натуральным деревом, теплыми водяными полами, индивидуальной скважиной и септиком 15 кВт. 15 мин до Тосно.
+                        </p>
+                        <div class="flex flex-wrap gap-1.5 mb-6 text-[11px]">
+                            <span class="bg-warm-100 text-brand-dark px-2.5 py-1 rounded-md">Потолки 2.7 м</span>
+                            <span class="bg-warm-100 text-brand-dark px-2.5 py-1 rounded-md">Терраса 24 м²</span>
+                            <span class="bg-warm-100 text-brand-dark px-2.5 py-1 rounded-md">Чистовая отделка</span>
+                        </div>
+                        <a href="#contact" class="block text-center w-full py-2.5 border border-terracotta text-terracotta hover:bg-terracotta hover:text-white rounded-xl text-sm font-medium transition">
+                            Запросить планировку Sawoda
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Карточка 3: HYTTE -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-warm-200 shadow-md hover:shadow-xl transition group">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="assets/hytte-house.jpg" alt="Посёлок HYTTE Всеволожск" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <div class="absolute top-4 left-4 bg-brand-dark text-white text-xs px-3 py-1 rounded-full font-semibold">
+                            г. Всеволожск • 40 км
+                        </div>
+                        <div class="absolute bottom-4 left-4 right-4 text-white">
+                            <span class="text-xs bg-black/60 backdrop-blur px-2.5 py-1 rounded">Стиль Хюгге • Закрытый КПП</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-baseline mb-2">
+                            <h3 class="text-2xl font-serif font-bold text-brand-dark">HYTTE</h3>
+                            <span class="text-lg font-bold text-brand-dark">от 5.8 млн ₽</span>
+                        </div>
+                        <p class="text-xs text-brand-muted mb-4 leading-relaxed">
+                            г. Всеволожск, ул. Счастливая. Архитектурная подсветка, деревянные фасады, 5 минут до курорта Виллингстон и гольф-клуба.
+                        </p>
+                        <div class="flex flex-wrap gap-1.5 mb-6 text-[11px]">
+                            <span class="bg-warm-100 text-brand-dark px-2.5 py-1 rounded-md">Участки 6–12 сот.</span>
+                            <span class="bg-warm-100 text-brand-dark px-2.5 py-1 rounded-md">15 кВт сетей</span>
+                            <span class="bg-warm-100 text-brand-dark px-2.5 py-1 rounded-md">Эко-стиль</span>
+                        </div>
+                        <a href="#contact" class="block text-center w-full py-2.5 border border-brand-dark text-brand-dark hover:bg-brand-dark hover:text-white rounded-xl text-sm font-medium transition">
+                            Запросить презентацию HYTTE
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Карточка 4: Юрки -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-warm-200 shadow-md hover:shadow-xl transition group">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="assets/luxury_evening.jpg" alt="Посёлок Юрки" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <div class="absolute top-4 left-4 bg-forest text-white text-xs px-3 py-1 rounded-full font-semibold">
+                            Кингисеппский р-н • 28 км
+                        </div>
+                        <div class="absolute bottom-4 left-4 right-4 text-white">
+                            <span class="text-xs bg-black/60 backdrop-blur px-2.5 py-1 rounded">Река Луга 6 км • Охрана 24/7</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-baseline mb-2">
+                            <h3 class="text-2xl font-serif font-bold text-brand-dark">Юрки</h3>
+                            <span class="text-lg font-bold text-forest">от 3.9 млн ₽</span>
+                        </div>
+                        <p class="text-xs text-brand-muted mb-4 leading-relaxed">
+                            Экологически чистый лесной массив. Участки от 5 до 9 соток, автономная скважина, спортивная и детская площадки, охраняемый шлагбаум.
+                        </p>
+                        <div class="flex flex-wrap gap-1.5 mb-6 text-[11px]">
+                            <span class="bg-warm-100 text-brand-dark px-2.5 py-1 rounded-md">Свет 15 кВт</span>
+                            <span class="bg-warm-100 text-brand-dark px-2.5 py-1 rounded-md">Скважина 15 м</span>
+                            <span class="bg-warm-100 text-brand-dark px-2.5 py-1 rounded-md">Регистрация (ИЖС)</span>
+                        </div>
+                        <a href="#contact" class="block text-center w-full py-2.5 border border-forest text-forest hover:bg-forest hover:text-white rounded-xl text-sm font-medium transition">
+                            Запросить каталог посёлка Юрки
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Карточка 5: Сканди Барнхаус -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-warm-200 shadow-md hover:shadow-xl transition group">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="assets/barnhouse_scandi.jpg" alt="Проект Барнхаус Сканди" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <div class="absolute top-4 left-4 bg-terracotta text-white text-xs px-3 py-1 rounded-full font-semibold">
+                            Готовый проект под ключ
+                        </div>
+                        <div class="absolute bottom-4 left-4 right-4 text-white">
+                            <span class="text-xs bg-black/60 backdrop-blur px-2.5 py-1 rounded">124 м² • Второе дыхание</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-baseline mb-2">
+                            <h3 class="text-2xl font-serif font-bold text-brand-dark">Scandi Barn 124</h3>
+                            <span class="text-lg font-bold text-terracotta">от 5.2 млн ₽</span>
+                        </div>
+                        <p class="text-xs text-brand-muted mb-4 leading-relaxed">
+                            Современный барнхаус с антресолью, сауной, мастер-спальней и бесшовным остеклением фасада с защитой от ультрафиолета.
+                        </p>
+                        <div class="flex flex-wrap gap-1.5 mb-6 text-[11px]">
+                            <span class="bg-warm-100 text-brand-dark px-2.5 py-1 rounded-md">Сауна включена</span>
+                            <span class="bg-warm-100 text-brand-dark px-2.5 py-1 rounded-md">Второй свет 5.4 м</span>
+                            <span class="bg-warm-100 text-brand-dark px-2.5 py-1 rounded-md">Энергоэффективность А+</span>
+                        </div>
+                        <a href="#contact" class="block text-center w-full py-2.5 border border-terracotta text-terracotta hover:bg-terracotta hover:text-white rounded-xl text-sm font-medium transition">
+                            Запросить проект Scandi Barn
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок 4: Инженерия и качество -->
+    <section id="specs" class="py-20 bg-white border-y border-warm-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-6 space-y-6">
+                    <span class="text-xs uppercase tracking-widest text-terracotta font-semibold">Надежность северного домостроения</span>
+                    <h2 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark leading-tight">
+                        Дома, готовые к зимам Ленобласти: заводской контроль и энергоэффективность класса А+
+                    </h2>
+                    <p class="text-brand-muted text-base leading-relaxed">
+                        Мы не экономим на скрытых работах. Каждый узел собирается по нормативам СП 31-105-2002 с фото- и видеофиксацией каждого этапа, которую вы получаете прямо в рабочий чат объекта.
+                    </p>
+
+                    <div class="grid sm:grid-cols-2 gap-4 pt-2">
+                        <div class="p-4 rounded-xl bg-warm-50 border border-warm-200">
+                            <div class="font-bold text-forest text-sm flex items-center gap-2">
+                                <span>🔥</span> Тёплый водяной пол
+                            </div>
+                            <p class="text-xs text-brand-muted mt-1">По всей площади первого этажа с терморегулятором в каждой комнате.</p>
+                        </div>
+                        <div class="p-4 rounded-xl bg-warm-50 border border-warm-200">
+                            <div class="font-bold text-forest text-sm flex items-center gap-2">
+                                <span>⚡</span> 15 кВт электричества
+                            </div>
+                            <p class="text-xs text-brand-muted mt-1">Прямой договор с Ленэнерго. Хватит на котёл, сауну и зарядку электрокара.</p>
+                        </div>
+                        <div class="p-4 rounded-xl bg-warm-50 border border-warm-200">
+                            <div class="font-bold text-forest text-sm flex items-center gap-2">
+                                <span>💧</span> Вода и канализация
+                            </div>
+                            <p class="text-xs text-brand-muted mt-1">Индивидуальная скважина с паспортом и автономная биостанция без запаха.</p>
+                        </div>
+                        <div class="p-4 rounded-xl bg-warm-50 border border-warm-200">
+                            <div class="font-bold text-forest text-sm flex items-center gap-2">
+                                <span>🛣️</span> Асфальт и охрана
+                            </div>
+                            <p class="text-xs text-brand-muted mt-1">Широкие внутрипоселковые дороги, шлагбаумы и круглогодичная чистка снега.</p>
+                        </div>
+                    </div>
+
+                    <div class="p-4 rounded-xl bg-forest-light border border-forest/20 text-xs text-forest flex items-center gap-3">
+                        <span class="text-xl">💰</span>
+                        <span><strong>Честная экономика эксплуатации:</strong> совокупные счета за электричество, воду и отопление зимой составляют <strong>8 000 – 14 000 ₽/мес</strong>, что сопоставимо с городской квартирой.</span>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-6 grid grid-cols-2 gap-4">
+                    <div class="rounded-2xl overflow-hidden shadow-md border border-warm-200 aspect-square">
+                        <img src="assets/sawoda-interior.jpg" alt="Интерьер дома АТС Малиновка" class="w-full h-full object-cover">
+                    </div>
+                    <div class="rounded-2xl overflow-hidden shadow-md border border-warm-200 aspect-square mt-6">
+                        <img src="assets/sawoda-terrace-v3.png" alt="Терраса дома" class="w-full h-full object-cover">
+                    </div>
+                    <div class="rounded-2xl overflow-hidden shadow-md border border-warm-200 aspect-square -mt-6">
+                        <img src="assets/minimalist_barnhouse.jpg" alt="Минималистичный барнхаус" class="w-full h-full object-cover">
+                    </div>
+                    <div class="rounded-2xl overflow-hidden shadow-md border border-warm-200 aspect-square">
+                        <img src="assets/hytte-house.jpg" alt="Фасад дома в лесу" class="w-full h-full object-cover">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок 5: Интерактивный ипотечный калькулятор с реальными ставками и лимитами -->
+    <section id="calculator" class="py-20 bg-warm-50">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-xs uppercase tracking-widest text-forest font-semibold">Актуальные финансовые условия</span>
+                <h2 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark mt-2">
+                    Калькулятор ипотеки с учетом лимитов 2026 года
+                </h2>
+                <p class="text-brand-muted text-sm mt-3">
+                    Учитываем актуальные требования банков: лимиты сумм для ЛО, комбо-ипотеку и ставки без скрытых страховок.
+                </p>
+            </div>
+
+            <div class="bg-white rounded-3xl border border-warm-200 shadow-xl p-8 sm:p-10">
+                <div class="grid lg:grid-cols-12 gap-8 items-start">
+                    
+                    <!-- Ползунки управления -->
+                    <div class="lg:col-span-7 space-y-6">
+                        
+                        <!-- Выбор программы -->
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-brand-dark mb-2">Программа кредитования</label>
+                            <div class="grid grid-cols-3 gap-2">
+                                <button type="button" class="rate-btn active px-3 py-2.5 rounded-xl text-xs font-semibold border border-forest bg-forest text-white transition text-center" data-program="family" data-rate="6" data-limit="12000000">
+                                    Семейная 6%
+                                </button>
+                                <button type="button" class="rate-btn px-3 py-2.5 rounded-xl text-xs font-semibold border border-warm-200 bg-warm-50 text-brand-dark hover:border-forest transition text-center" data-program="it" data-rate="6" data-limit="9000000">
+                                    IT-ипотека 6%
+                                </button>
+                                <button type="button" class="rate-btn px-3 py-2.5 rounded-xl text-xs font-semibold border border-warm-200 bg-warm-50 text-brand-dark hover:border-forest transition text-center" data-program="base" data-rate="23" data-limit="50000000">
+                                    Базовая 23%
+                                </button>
+                            </div>
+                            
+                            <!-- Инфо-подсказка по выбранной программе -->
+                            <div id="programDescription" class="mt-3 p-3 rounded-xl bg-warm-50 border border-warm-200 text-xs text-brand-muted leading-relaxed">
+                                <strong class="text-brand-dark font-semibold">Семейная ипотека 6%:</strong> лимит кредита до 12 000 000 ₽ в Ленинградской области. Для семей с ребенком до 6 лет включительно или ребенком-инвалидом. Первоначальный взнос от 20%.
+                            </div>
+                        </div>
+
+                        <!-- Стоимость дома -->
+                        <div>
+                            <div class="flex justify-between items-center mb-2">
+                                <label class="text-xs font-bold uppercase tracking-wider text-brand-dark">Стоимость дома с участком</label>
+                                <span id="priceVal" class="text-lg font-bold text-brand-dark font-serif">5 500 000 ₽</span>
+                            </div>
+                            <input type="range" id="priceRange" min="2400000" max="15000000" step="100000" value="5500000" class="w-full accent-forest cursor-pointer">
+                            <div class="flex justify-between text-[11px] text-brand-muted mt-1">
+                                <span>2.4 млн ₽</span>
+                                <span>15 млн ₽</span>
+                            </div>
+                        </div>
+
+                        <!-- Первоначальный взнос -->
+                        <div>
+                            <div class="flex justify-between items-center mb-2">
+                                <label class="text-xs font-bold uppercase tracking-wider text-brand-dark">Первоначальный взнос</label>
+                                <span id="downVal" class="text-lg font-bold text-brand-dark font-serif">1 100 000 ₽ (20%)</span>
+                            </div>
+                            <input type="range" id="downRange" min="20" max="60" step="5" value="20" class="w-full accent-forest cursor-pointer">
+                            <div class="flex justify-between text-[11px] text-brand-muted mt-1">
+                                <span>20% (мин. по закону)</span>
+                                <span>60%</span>
+                            </div>
+                        </div>
+
+                        <!-- Срок кредита -->
+                        <div>
+                            <div class="flex justify-between items-center mb-2">
+                                <label class="text-xs font-bold uppercase tracking-wider text-brand-dark">Срок кредита</label>
+                                <span id="yearsVal" class="text-lg font-bold text-brand-dark font-serif">25 лет</span>
+                            </div>
+                            <input type="range" id="yearsRange" min="5" max="30" step="1" value="25" class="w-full accent-forest cursor-pointer">
+                            <div class="flex justify-between text-[11px] text-brand-muted mt-1">
+                                <span>5 лет</span>
+                                <span>30 лет</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Результат расчета -->
+                    <div class="lg:col-span-5 bg-warm-50 rounded-2xl p-6 sm:p-8 border border-warm-200 flex flex-col justify-between space-y-6">
+                        <div>
+                            <span class="text-xs uppercase font-semibold text-brand-muted block mb-1">Ежемесячный платёж</span>
+                            <div id="monthlyPayment" class="text-4xl font-serif font-bold text-forest mb-2">28 350 ₽</div>
+                            
+                            <!-- Бейдж превышения лимита при необходимости -->
+                            <div id="limitAlert" class="hidden p-2.5 rounded-lg bg-amber-50 border border-amber-200 text-[11px] text-amber-800 mb-4">
+                                ⚠️ Сумма кредита превышает лимит льготы. Разница рассчитывается по базовой ставке (Комбо-ипотека).
+                            </div>
+
+                            <div class="space-y-2.5 text-xs border-t border-warm-200 pt-4">
+                                <div class="flex justify-between">
+                                    <span class="text-brand-muted">Сумма кредита:</span>
+                                    <span id="loanSum" class="font-bold text-brand-dark">4 400 000 ₽</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-brand-muted">Ставка по программе:</span>
+                                    <span id="currentRate" class="font-bold text-forest">6.0% годовых</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-brand-muted">Макс. лимит льготы:</span>
+                                    <span id="programLimit" class="font-bold text-brand-dark">до 12 000 000 ₽</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-brand-muted">Необходимый доход:</span>
+                                    <span id="incomeNeeded" class="font-bold text-brand-dark">от 58 000 ₽/мес</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <form onsubmit="event.preventDefault(); alert('Заявка на одобрение ипотеки отправлена! Ипотечный брокер свяжется с вами.');" class="space-y-3 pt-2">
+                            <input type="tel" placeholder="+7 (___) ___-__-__" required class="w-full px-4 py-2.5 rounded-xl border border-warm-200 bg-white text-xs focus:outline-none focus:ring-2 focus:ring-forest">
+                            <button type="submit" class="w-full bg-forest hover:bg-forest-dark text-white font-medium py-3 px-4 rounded-xl text-xs transition shadow-md">
+                                Одобрить ипотеку за 24 часа →
+                            </button>
+                            <span class="text-[10px] text-center block text-brand-muted">Бесплатное сопровождение аккредитованного брокера</span>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок 6: Устранение возражений / FAQ (Аккордеон) -->
+    <section id="faq" class="py-20 bg-white border-y border-warm-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-xs uppercase tracking-widest text-terracotta font-semibold">Честные ответы на сложные вопросы</span>
+                <h2 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark mt-2">
+                    Всё, что важно знать перед покупкой дома
+                </h2>
+                <p class="text-brand-muted text-sm mt-3">
+                    Никаких скрытых платежей, звёздочек в договоре или неожиданных взносов
+                </p>
+            </div>
+
+            <div class="space-y-4" id="faqAccordion">
+                
+                <!-- Вопрос 1: Земля в собственности? -->
+                <div class="accordion-item border border-warm-200 rounded-2xl overflow-hidden transition bg-warm-50/50">
+                    <button class="accordion-toggle w-full p-6 text-left flex justify-between items-center focus:outline-none">
+                        <span class="font-bold text-base text-brand-dark pr-4">Земля переходит в собственность или в долгосрочную аренду?</span>
+                        <span class="accordion-icon w-8 h-8 rounded-full bg-warm-200 flex items-center justify-center text-brand-dark transition shrink-0">↓</span>
+                    </button>
+                    <div class="accordion-content px-6 pb-6 text-sm text-brand-muted leading-relaxed">
+                        Все земельные участки оформляются в вашу личную частную собственность по ДКП (договору купли-продажи) с регистрацией в Росреестре. Каждому участку присвоен индивидуальный кадастровый номер. Вы получаете официальную выписку из ЕГРН.
+                    </div>
+                </div>
+
+                <!-- Вопрос 2: Как работает Синхронный Trade-in? -->
+                <div class="accordion-item border border-warm-200 rounded-2xl overflow-hidden transition bg-warm-50/50">
+                    <button class="accordion-toggle w-full p-6 text-left flex justify-between items-center focus:outline-none">
+                        <span class="font-bold text-base text-brand-dark pr-4">Как работает синхронный Trade-in и где мы живём во время стройки?</span>
+                        <span class="accordion-icon w-8 h-8 rounded-full bg-warm-200 flex items-center justify-center text-brand-dark transition shrink-0">↓</span>
+                    </button>
+                    <div class="accordion-content px-6 pb-6 text-sm text-brand-muted leading-relaxed">
+                        Мы фиксируем стоимость вашей городской квартиры и стоимость будущего загородного дома. При этом вы продолжаете спокойно жить в своей квартире вплоть до дня передачи ключей от готового дома. Вам не нужно снимать жильё и тратить деньги на аренду и двойные переезды.
+                    </div>
+                </div>
+
+                <!-- Вопрос 3: Аккредитованы ли вы банками? -->
+                <div class="accordion-item border border-warm-200 rounded-2xl overflow-hidden transition bg-warm-50/50">
+                    <button class="accordion-toggle w-full p-6 text-left flex justify-between items-center focus:outline-none">
+                        <span class="font-bold text-base text-brand-dark pr-4">Аккредитованы ли вы банками для семейной и IT-ипотеки?</span>
+                        <span class="accordion-icon w-8 h-8 rounded-full bg-warm-200 flex items-center justify-center text-brand-dark transition shrink-0">↓</span>
+                    </button>
+                    <div class="accordion-content px-6 pb-6 text-sm text-brand-muted leading-relaxed">
+                        Да, компания «АТС Малиновка» аккредитована в ПАО «Сбербанк», Банк ВТБ, ДОМ.РФ, Альфа-Банк и Россельхозбанк. Мы готовим полный пакет юридической документации на объект и земельный участок, поэтому согласование ипотечной сделки проходит без задержек — в среднем за 3–5 рабочих дней.
+                    </div>
+                </div>
+
+                <!-- Вопрос 4: Не замерзнем ли зимой? -->
+                <div class="accordion-item border border-warm-200 rounded-2xl overflow-hidden transition bg-warm-50/50">
+                    <button class="accordion-toggle w-full p-6 text-left flex justify-between items-center focus:outline-none">
+                        <span class="font-bold text-base text-brand-dark pr-4">Хватит ли тепла зимой и сколько выходит за отопление?</span>
+                        <span class="accordion-icon w-8 h-8 rounded-full bg-warm-200 flex items-center justify-center text-brand-dark transition shrink-0">↓</span>
+                    </button>
+                    <div class="accordion-content px-6 pb-6 text-sm text-brand-muted leading-relaxed">
+                        Толщина перекрестного утепления стен — от 200 мм каменной ваты плотностью 50 кг/м³, перекрытий — 250 мм. Установлены двухкамерные энергосберегающие стеклопакеты с аргоновым заполнением и терморамкой. Водяные тёплые полы работают как эффективный теплоаккумулятор: даже в морозы -25°C расходы на электричество не превышают 10 000 – 14 000 ₽/мес за дом площадью 100 м².
+                    </div>
+                </div>
+
+                <!-- Вопрос 5: Что входит в стоимость «под ключ»? -->
+                <div class="accordion-item border border-warm-200 rounded-2xl overflow-hidden transition bg-warm-50/50">
+                    <button class="accordion-toggle w-full p-6 text-left flex justify-between items-center focus:outline-none">
+                        <span class="font-bold text-base text-brand-dark pr-4">Что именно входит в комплектацию «под ключ»?</span>
+                        <span class="accordion-icon w-8 h-8 rounded-full bg-warm-200 flex items-center justify-center text-brand-dark transition shrink-0">↓</span>
+                    </button>
+                    <div class="accordion-content px-6 pb-6 text-sm text-brand-muted leading-relaxed">
+                        В стоимость входит земельный участок, фундамент (монолитная плита), силовой каркас, кровля металлочерепица Grand Line, чистовая внешняя и внутренняя отделка деревом, система водяных полов, электроразводка 15 кВт, индивидуальная скважина с вводом в дом и септик биоочистки. Никаких доплат за базовые коммуникации.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок 7: О девелопере «АТС Малиновка» -->
+    <section id="about" class="py-20 bg-warm-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-5 relative">
+                    <div class="rounded-3xl overflow-hidden border-4 border-white shadow-xl aspect-4/5">
+                        <img src="assets/sawoda-facade-new.png" alt="Строительство АТС Малиновка" class="w-full h-full object-cover">
+                    </div>
+                    <div class="absolute -bottom-6 -right-6 bg-forest text-white p-6 rounded-2xl shadow-xl max-w-xs">
+                        <div class="text-3xl font-serif font-bold">17 лет</div>
+                        <div class="text-xs text-white/90 mt-1 leading-snug">Безупречной репутации на загородном рынке Санкт-Петербурга и ЛО</div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7 space-y-6">
+                    <span class="text-xs uppercase tracking-widest text-forest font-semibold">Надёжный девелопер полного цикла</span>
+                    <h2 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark leading-tight">
+                        «АТС Малиновка» — строим загородные дома на свои деньги с 2009 года
+                    </h2>
+                    <p class="text-brand-muted text-base leading-relaxed">
+                        В отличие от мелких подрядчиков, зависящих от каждого платежа клиента, мы строим за счёт собственной финансовой базы. Это исключает остановку стройки из-за банковских задержек или кассовых разрывов.
+                    </p>
+
+                    <!-- Цифры компании (4 посёлка, без Елизаветинского) -->
+                    <div class="grid sm:grid-cols-3 gap-6 pt-4">
+                        <div class="border-l-2 border-forest pl-4">
+                            <div class="text-3xl font-serif font-bold text-brand-dark">350+</div>
+                            <div class="text-xs text-brand-muted mt-1">Домов построено и передано семьям</div>
+                        </div>
+                        <div class="border-l-2 border-forest pl-4">
+                            <div class="text-3xl font-serif font-bold text-brand-dark">4 посёлка</div>
+                            <div class="text-xs text-brand-muted mt-1">В экологически чистых локациях ЛО</div>
+                        </div>
+                        <div class="border-l-2 border-forest pl-4">
+                            <div class="text-3xl font-serif font-bold text-brand-dark">5 лет</div>
+                            <div class="text-xs text-brand-muted mt-1">Официальной гарантии по договору подряда</div>
+                        </div>
+                    </div>
+
+                    <div class="p-6 rounded-2xl bg-white border border-warm-200 space-y-3">
+                        <div class="font-bold text-sm text-brand-dark flex items-center gap-2">
+                            <span>🛡️</span> Финансовая и юридическая безопасность заказчика:
+                        </div>
+                        <ul class="text-xs text-brand-muted space-y-2">
+                            <li class="flex items-center gap-2">✓ Фиксированная смета в договоре: цена не повышается в процессе работ</li>
+                            <li class="flex items-center gap-2">✓ Оплата траншами после подписания промежуточных актов скрытых работ</li>
+                            <li class="flex items-center gap-2">✓ Еженедельный видеоотчет прораба в персональный Telegram-чат</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок 8: Финальный CTA и контакты -->
+    <section id="contact" class="py-24 bg-forest text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-6 space-y-6">
+                    <div class="inline-block px-3 py-1 rounded-full bg-white/10 text-xs font-semibold tracking-wider uppercase text-warm-200">
+                        Тест-драйв загородной жизни
+                    </div>
+                    <h2 class="text-3xl sm:text-5xl font-serif font-bold leading-tight">
+                        Запишитесь на бесплатную индивидуальную экскурсию по посёлкам
+                    </h2>
+                    <p class="text-white/80 text-base leading-relaxed">
+                        Покажем реальные дома на разных стадиях готовности, дадим пообщаться с жителями, угостим горячим кофе и предоставим персональный трансфер на комфортном авто.
+                    </p>
+
+                    <div class="space-y-4 pt-4 border-t border-white/20">
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-lg">📞</div>
+                            <div>
+                                <div class="text-xs text-white/70">Прямой телефон отдела продаж:</div>
+                                <a href="tel:+78125000000" class="text-lg font-bold hover:text-warm-200 transition">+7 (812) 500-00-00</a>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-lg">💬</div>
+                            <div>
+                                <div class="text-xs text-white/70">Быстрая консультация в Telegram:</div>
+                                <a href="https://t.me/atsmalinovka" target="_blank" class="text-sm font-semibold hover:text-warm-200 underline">@atsmalinovka_bot</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Форма записи (только актуальные 4 поселка) -->
+                <div class="lg:col-span-6">
+                    <div class="bg-white text-brand-dark p-8 sm:p-10 rounded-3xl shadow-2xl">
+                        <h3 class="text-2xl font-serif font-bold mb-2">Забронировать экскурсию с трансфером</h3>
+                        <p class="text-xs text-brand-muted mb-6">Выберите удобную дату — менеджер свяжется с вами для согласования маршрута</p>
+
+                        <form onsubmit="event.preventDefault(); alert('Спасибо! Мы перезвоним вам в течение 10 минут для согласования времени экскурсии.');" class="space-y-4">
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider mb-1.5 text-brand-muted">Ваше имя</label>
+                                <input type="text" placeholder="Константин" required class="w-full px-4 py-3 rounded-xl border border-warm-200 bg-warm-50 text-sm focus:outline-none focus:ring-2 focus:ring-forest">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider mb-1.5 text-brand-muted">Номер телефона</label>
+                                <input type="tel" placeholder="+7 (999) 000-00-00" required class="w-full px-4 py-3 rounded-xl border border-warm-200 bg-warm-50 text-sm focus:outline-none focus:ring-2 focus:ring-forest">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider mb-1.5 text-brand-muted">Какой посёлок хотите посмотреть?</label>
+                                <select class="w-full px-4 py-3 rounded-xl border border-warm-200 bg-warm-50 text-sm focus:outline-none focus:ring-2 focus:ring-forest">
+                                    <option>Honkaniemi (Выборгский р-н, у озёр)</option>
+                                    <option>Sawoda (Тосненский р-н)</option>
+                                    <option>HYTTE (г. Всеволожск)</option>
+                                    <option>Юрки (Кингисеппский р-н)</option>
+                                    <option>Нужна помощь с выбором локации</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="w-full bg-terracotta hover:bg-terracotta-hover text-white font-medium py-4 px-6 rounded-xl text-sm transition shadow-lg shadow-terracotta/30 flex items-center justify-center gap-2">
+                                <span>Забронировать выезд на объект</span>
+                                <span>→</span>
+                            </button>
+                            <p class="text-[11px] text-center text-brand-muted">
+                                Трансфер от метро и экскурсия абсолютно бесплатны и ни к чему вас не обязывают
+                            </p>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал сайта с фирменным логотипом -->
+    <footer class="bg-brand-dark text-white/70 py-12 border-t border-white/10 text-xs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center space-x-3">
+                <img src="assets/logo.png" alt="АТС Малиновка" class="w-9 h-9 object-contain bg-white rounded-full p-0.5">
+                <span class="font-serif text-lg font-bold text-white tracking-tight">АТС Малиновка</span>
+            </div>
+            <div class="text-center md:text-left">
+                © 2009–2026 ООО «АТС Малиновка». Все права защищены. Ленинградская область и Санкт-Петербург.
+            </div>
+            <div class="flex space-x-6">
+                <a href="#" class="hover:text-white transition">Политика конфиденциальности</a>
+                <a href="#" class="hover:text-white transition">Реквизиты девелопера</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Скрипты: Калькулятор и Аккордеон -->
+    <script>
+        // Интерактивный аккордеон FAQ
+        document.querySelectorAll('.accordion-toggle').forEach(button => {
+            button.addEventListener('click', () => {
+                const item = button.closest('.accordion-item');
+                const wasOpen = item.classList.contains('open');
+                
+                document.querySelectorAll('.accordion-item').forEach(i => i.classList.remove('open'));
+                
+                if (!wasOpen) {
+                    item.classList.add('open');
+                }
+            });
+        });
+
+        const firstFaq = document.querySelector('.accordion-item');
+        if (firstFaq) firstFaq.classList.add('open');
+
+        // Ипотечный калькулятор
+        const priceRange = document.getElementById('priceRange');
+        const downRange = document.getElementById('downRange');
+        const yearsRange = document.getElementById('yearsRange');
+        const priceVal = document.getElementById('priceVal');
+        const downVal = document.getElementById('downVal');
+        const yearsVal = document.getElementById('yearsVal');
+        const monthlyPayment = document.getElementById('monthlyPayment');
+        const loanSum = document.getElementById('loanSum');
+        const currentRateEl = document.getElementById('currentRate');
+        const incomeNeeded = document.getElementById('incomeNeeded');
+        const programLimitEl = document.getElementById('programLimit');
+        const programDescriptionEl = document.getElementById('programDescription');
+        const limitAlert = document.getElementById('limitAlert');
+        
+        let currentProgram = 'family';
+        let currentRate = 6.0;
+        let currentLimit = 12000000;
+
+        const programDetails = {
+            family: {
+                rate: 6.0,
+                limit: 12000000,
+                limitText: 'до 12 000 000 ₽',
+                desc: '<strong class="text-brand-dark font-semibold">Семейная ипотека 6%:</strong> лимит кредита до 12 000 000 ₽ в Ленинградской области. Для семей с хотя бы одним ребенком до 6 лет включительно или ребенком-инвалидом. Первоначальный взнос от 20%.'
+            },
+            it: {
+                rate: 6.0,
+                limit: 9000000,
+                limitText: 'до 9 000 000 ₽',
+                desc: '<strong class="text-brand-dark font-semibold">IT-ипотека 6% в ЛО:</strong> с 1 августа 2024 года в Санкт-Петербурге и Москве программа закрыта, но в Ленинградской области действует! Лимит до 9 000 000 ₽. Для сотрудников аккредитованных IT-компаний с доходом от 150 000 ₽. ПВ от 20%.'
+            },
+            base: {
+                rate: 23.0,
+                limit: 50000000,
+                limitText: 'без лимита господдержки',
+                desc: '<strong class="text-brand-dark font-semibold">Базовая (рыночная) ипотека 23%:</strong> стандартная банковская программа при отсутствии права на льготы (исходя из текущей ключевой ставки ЦБ РФ). Сумма кредита до 50 000 000 ₽, ПВ от 20%.'
+            }
+        };
+
+        document.querySelectorAll('.rate-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.rate-btn').forEach(b => {
+                    b.classList.remove('active', 'bg-forest', 'text-white', 'border-forest');
+                    b.classList.add('bg-warm-50', 'text-brand-dark', 'border-warm-200');
+                });
+                btn.classList.add('active', 'bg-forest', 'text-white', 'border-forest');
+                btn.classList.remove('bg-warm-50', 'text-brand-dark', 'border-warm-200');
+                
+                currentProgram = btn.dataset.program;
+                const config = programDetails[currentProgram];
+                currentRate = config.rate;
+                currentLimit = config.limit;
+
+                currentRateEl.innerText = currentRate.toFixed(1) + '% годовых';
+                programLimitEl.innerText = config.limitText;
+                programDescriptionEl.innerHTML = config.desc;
+
+                calculateMortgage();
+            });
+        });
+
+        function formatNumber(num) {
+            return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+        }
+
+        function calculateAnnuity(loan, annualRate, months) {
+            if (loan <= 0) return 0;
+            const monthlyRate = (annualRate / 100) / 12;
+            if (monthlyRate === 0) return loan / months;
+            return loan * (monthlyRate * Math.pow(1 + monthlyRate, months)) / (Math.pow(1 + monthlyRate, months) - 1);
+        }
+
+        function calculateMortgage() {
+            const price = parseInt(priceRange.value);
+            const downPercent = parseInt(downRange.value);
+            const years = parseInt(yearsRange.value);
+            const months = years * 12;
+
+            const downAmount = Math.round(price * (downPercent / 100));
+            const loan = price - downAmount;
+            
+            priceVal.innerText = formatNumber(price) + ' ₽';
+            downVal.innerText = formatNumber(downAmount) + ' ₽ (' + downPercent + '%)';
+            yearsVal.innerText = years + ' лет';
+            loanSum.innerText = formatNumber(loan) + ' ₽';
+
+            let payment = 0;
+
+            if (currentProgram === 'base' || loan <= currentLimit) {
+                limitAlert.classList.add('hidden');
+                payment = calculateAnnuity(loan, currentRate, months);
+            } else {
+                // Комбо-ипотека: часть по льготной ставке + остаток по рыночной (23%)
+                limitAlert.classList.remove('hidden');
+                const subsidizedLoan = currentLimit;
+                const marketLoan = loan - currentLimit;
+                
+                const subsidizedPayment = calculateAnnuity(subsidizedLoan, currentRate, months);
+                const marketPayment = calculateAnnuity(marketLoan, 23.0, months);
+                payment = subsidizedPayment + marketPayment;
+            }
+
+            const paymentRound = Math.round(payment);
+            monthlyPayment.innerText = formatNumber(paymentRound) + ' ₽';
+            
+            // Необходимый доход
+            const income = Math.round(paymentRound * 2.05 / 1000) * 1000;
+            incomeNeeded.innerText = 'от ' + formatNumber(income) + ' ₽/мес';
+        }
+
+        priceRange.addEventListener('input', calculateMortgage);
+        downRange.addEventListener('input', calculateMortgage);
+        yearsRange.addEventListener('input', calculateMortgage);
+
+        // Инициализация
+        calculateMortgage();
+    </script>
+</body>
+</html>
